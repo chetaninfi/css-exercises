@@ -21,16 +21,11 @@ button {
 /* SOLUTION */
 
 button {
-  transition: transform .3s ease-in-out;
-  filter: transform .3s blur(0);
-  /* filter: transform .3s blur(10); */
-  /* filter: blur(10); */
   filter: blur(0);
-
 }
 
 button:hover {
-  /* transform: scale(1.2) */
+
   filter: blur(5px);
 
 }
